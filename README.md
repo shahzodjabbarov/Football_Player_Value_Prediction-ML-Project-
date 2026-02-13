@@ -27,7 +27,8 @@ Raw player data is messy. We didn't just clean it; we engineered it.
 ### 2. Model Evolution
 We tested three distinct architectures to find the optimal fit.
 
-![Model Comparison Chart](model_comparison.png)
+<img width="828" height="525" alt="image" src="https://github.com/user-attachments/assets/ed4081b6-6b13-452e-99ab-2717ef4959fe" />
+
 
 * **Linear Regression:** Baseline model. Failed to capture non-linear relationships (e.g., Age vs Value).
 * **Random Forest:** Huge improvement. Successfully captured the importance of "Club Rank."
@@ -41,7 +42,8 @@ We tested three distinct architectures to find the optimal fit.
 Contrary to popular belief, raw goals aren't the #1 driver. **Context is King.**
 Our model discovered that **Club Prestige (Rank)** is the single strongest predictor of value, followed by **Age** and **Minutes Played**. Performance metrics (`xG`, `Progressive Passes`) act as multipliers on top of this base.
 
-![Feature Importance Chart](feature_importance.png)
+<img width="1099" height="540" alt="image" src="https://github.com/user-attachments/assets/dec75162-47d0-4c9a-aa11-3294728b4981" />
+
 
 ### 2. The "Ball-Playing Defender"
 Correlation analysis revealed distinct valuation logic for different positions:
@@ -54,7 +56,7 @@ Correlation analysis revealed distinct valuation logic for different positions:
 Below is the performance on the Test Set (20% of unseen data). The model shows high fidelity for players valued between **€1M - €50M**.
 * *Note: The model remains conservative on "Superstar" outliers (>€100M), consistently predicting them in the €80M-€100M range due to the scarcity of training examples at that tier.*
 
-![Prediction Scatter Plot](prediction_scatter.png)
+<img width="759" height="770" alt="image" src="https://github.com/user-attachments/assets/51904336-156d-4b72-a7e7-5230fad02f4f" />
 
 ---
 
@@ -64,10 +66,10 @@ Below is the performance on the Test Set (20% of unseen data). The model shows h
 * **Viz:** Matplotlib, Seaborn
 * **Tuning:** RandomizedSearchCV
 
-## 🚀 Future Work
+##  Future Work
 * **The "Elite" Module:** Train a separate binary classifier to detect "Superstars" and route them to a specialized model trained only on high-value players.
 * **Social Sentiment:** Integrate Twitter/Instagram follower counts as a feature to capture "Marketing Value" which the current stats-based model misses.
 
 ---
-*Author: [Your Name]*
+*Author: Jabborov Shahzod*
 *Dataset: 2024/2025 Season Data (Top 5 Leagues)*
