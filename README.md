@@ -1,4 +1,4 @@
-# ⚽ Moneyball AI: Predicting Football Player Market Value
+# Moneyball AI: Predicting Football Player Market Value
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=for-the-badge)
