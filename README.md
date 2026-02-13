@@ -5,7 +5,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit_Learn-yellow?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=for-the-badge)
 
-## 📊 Executive Summary
+##  ✦ Executive Summary
 This project leverages Machine Learning to predict the market value of professional football players in the Top 5 European Leagues. By analyzing over **2,500 players** and **50+ performance metrics**, we built a valuation engine that outperforms traditional linear modeling by **31%**.
 
 **Key Results:**
@@ -15,7 +15,7 @@ This project leverages Machine Learning to predict the market value of professio
 
 ---
 
-## 🧠 The Methodology
+##  The Methodology
 The project followed a rigorous Data Science pipeline, moving from raw data to a production-grade XGBoost model.
 
 ### 1. Data Processing & Engineering
