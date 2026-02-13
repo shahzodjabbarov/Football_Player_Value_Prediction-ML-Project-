@@ -66,10 +66,6 @@ Below is the performance on the Test Set (20% of unseen data). The model shows h
 * **Viz:** Matplotlib, Seaborn
 * **Tuning:** RandomizedSearchCV
 
-##  Future Work
-* **The "Elite" Module:** Train a separate binary classifier to detect "Superstars" and route them to a specialized model trained only on high-value players.
-* **Social Sentiment:** Integrate Twitter/Instagram follower counts as a feature to capture "Marketing Value" which the current stats-based model misses.
-
 ---
 *Author: Jabborov Shahzod*
 *Dataset: 2024/2025 Season Data (Top 5 Leagues)*
